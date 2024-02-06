@@ -4,11 +4,19 @@ const Login = () => {
   return (
     <div className=" pt-16">
            <section className="md:flex  h-screen justify-center items-center p-3 ">
-                 <div >
+                 <div
+                    data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                 >
                       <img className=" md:w-[600px]  " src="https://i.ibb.co/dQzXH0Y/9959527-1.jpg" alt="" />
                  </div>
 
-                 <div >
+                 <div 
+                    data-aos="fade-left"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine"
+                 >
                      <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
                      <form className=" space-y-2 md:w-96">
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  

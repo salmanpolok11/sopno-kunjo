@@ -1,13 +1,16 @@
 const Exams = () => {
   return (
     <div >
-      <section className="md:pt-32 h-[650px] p-3">
-        <h1 className=" text-center text-4xl font-bold">
+      <section className="md:pt-32 h-[650px] p-3 pt-10">
+        <h1 className=" text-center text-4xl font-bold"  >
           সকল <span className=" text-blue-700">পরিক্ষা </span> সমূহ
         </h1>
  
  <div className=" md:flex justify-center md:space-x-10 mt-6 ">
- <div className=" lg:w-80 md:space-y-2 border-2 p-4  rounded-md  mb-5 ">
+ <div className=" lg:w-80 md:space-y-2 border-2 p-4  rounded-md  mb-5  "   
+          data-aos="fade-right"
+         data-aos-offset="300"
+         data-aos-easing="ease-in-sine">
           <img
             className="  "
             src="https://i.ibb.co/275BF7C/8861545.jpg"
@@ -21,7 +24,11 @@ const Exams = () => {
           <button className=" btn btn-outline btn-sm mx-auto w-full">প্রস্তুতি ফ্রি = ৫০০৳ </button>
 
         </div>
-        <div className=" lg:w-80 p-3 md:space-y-2 border-2  rounded-md ">
+        <div className=" lg:w-80 p-3 md:space-y-2 border-2  rounded-md "
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        >
           <img src="https://i.ibb.co/nPMyDxx/8861625.jpg" alt="" />
           <h1  className=" mt-2 font-medium ">
             পরিক্ষার প্রস্তুতি হোক সারা মাস জুড়ে। এসএসসি মানবিক বিভাগের

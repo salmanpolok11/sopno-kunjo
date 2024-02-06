@@ -14,7 +14,7 @@ const Home = () => {
         </section>
 
         {/* Qoute section */}
-        <section className=" mt-64 md:mt-5">
+        <section className=" mt-80 md:mt-5">
         <Quote/>
         </section>
        
