@@ -1,4 +1,5 @@
 import Bannar from "../Components/Bannar";
+import Card from "../Components/Card";
 import Quote from "../Components/Quote";
 import Exams from "./Exams";
 
@@ -14,9 +15,13 @@ const Home = () => {
         </section>
 
         {/* Qoute section */}
-        <section className=" mt-80 md:mt-5">
+        <section className=" mt-[270px] md:mt-5">
         <Quote/>
         </section>
+
+        {/* card section */}
+        <Card/>
+
        
     </div>
   );
