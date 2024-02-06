@@ -4,19 +4,11 @@ const Register = () => {
   return (
     <div className=" pt-16">
           <section className="md:flex  h-screen justify-center items-center p-3 ">
-                 <div
-                      data-aos="fade-right"
-                      data-aos-offset="300"
-                      data-aos-easing="ease-in-sine"
-                 >
+                 <div>
                       <img className=" md:w-[600px]  " src="https://i.ibb.co/H4KxDGY/6300959.jpg" alt="" />
                  </div>
 
-                 <div 
-                    data-aos="fade-left"
-                    data-aos-offset="300"
-                    data-aos-easing="ease-in-sine"
-                 >
+                 <div>
                      <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
                      <form className=" space-y-2 md:w-96">
 
