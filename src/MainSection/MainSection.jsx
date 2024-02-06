@@ -4,8 +4,9 @@ import Header from "../Components/Header";
 const MainSection = () => {
   return (
     <div>
-        <Header/>
-       <Outlet/>
+      <Header/>
+      <Outlet/>
+
     </div>
   );
 };
