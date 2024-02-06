@@ -1,12 +1,12 @@
 const Exams = () => {
   return (
-    <div>
-      <section className="lg:mt-4 h-[800px]">
+    <div >
+      <section className="md:pt-32 h-[650px] p-3">
         <h1 className=" text-center text-4xl font-bold">
           সকল <span className=" text-blue-700">পরিক্ষা </span> সমূহ
         </h1>
  
- <div className=" md:flex justify-center md:space-x-10 mt-10 ">
+ <div className=" md:flex justify-center md:space-x-10 mt-6 ">
  <div className=" lg:w-80 md:space-y-2 border-2 p-4  rounded-md  mb-5 ">
           <img
             className="  "

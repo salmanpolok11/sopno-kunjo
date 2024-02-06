@@ -1,4 +1,5 @@
 import Bannar from "../Components/Bannar";
+import Quote from "../Components/Quote";
 import Exams from "./Exams";
 
 const Home = () => {
@@ -6,9 +7,15 @@ const Home = () => {
     <div className="p-3">
       {/* bannar-section */}
         <Bannar/>
+
         {/* exam section */}
-        <section className=" mt-16">
+        <section className=" ">
         <Exams/>
+        </section>
+
+        {/* Qoute section */}
+        <section className=" mt-64 md:mt-5">
+        <Quote/>
         </section>
        
     </div>
