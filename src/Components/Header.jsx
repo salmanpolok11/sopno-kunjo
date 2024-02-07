@@ -44,13 +44,15 @@ const Header = () => {
     </div>
     <div className="navbar-end ">
     
-     {
-       user &&  <div className="  avatar online lg:mr-10">
-       <div className=" w-9 md:w-14 rounded-full">
-         <img src={user?.photoURL} />
+    {
+        user && 
+        <div className="  avatar online lg:mr-10">
+        <div className=" w-9 md:w-14 rounded-full">
+          <img src={user.photoURL} />
+        </div>
        </div>
-     </div>
-     }
+    }
+     
 
     <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
