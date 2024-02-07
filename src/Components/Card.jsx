@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <div className=" p-3 text-center">
+    <div className=" p-3 text-center mt-20">
       <section>
         <div className=" md:flex items-center justify-center">
           <img

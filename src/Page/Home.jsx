@@ -1,3 +1,4 @@
+import Advice from "../Components/Advice";
 import Bannar from "../Components/Bannar";
 import Bio from "../Components/Bio";
 import Card from "../Components/Card";
@@ -15,16 +16,23 @@ const Home = () => {
         <Exams/>
         </section>
 
+
+
         {/* Qoute section */}
         <section className=" mt-[270px] md:mt-5">
         <Quote/>
         </section>
 
+        {/* advice section */}
+   <Advice/>
+
+         {/* Bio section */}
+         <Bio/>
+
         {/* card section */}
         <Card/>
 
-        {/* Bio section */}
-        <Bio/>
+       
 
        
     </div>
