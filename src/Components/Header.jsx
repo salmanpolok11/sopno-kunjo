@@ -18,7 +18,9 @@ const Header = () => {
 
   const  navLinks = <>
        <li><NavLink to='/'>হোম </NavLink></li>
-       <li><NavLink to='/profile'>প্রোফাইল  </NavLink></li>
+      {
+         user &&   <li><NavLink to='/profile'>প্রোফাইল  </NavLink></li>
+      }
        <li><NavLink to='/exam'>পরিক্ষা সমূহ </NavLink></li>
        <li><NavLink to='contract'>যোগাযোগ  </NavLink></li>
      { user ?<li><NavLink onClick={handleLogout} to='login'>লগআউট </NavLink></li>: 

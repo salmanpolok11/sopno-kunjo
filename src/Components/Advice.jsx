@@ -7,7 +7,7 @@ const Advice = () => {
         </h1>
 
         <div className=" md:flex justify-center items-center gap-10 md:mt-10  mt-5">
-        <img className=" mx-auto w-80" src="https://i.ibb.co/bbnWwmV/8262066.jpg" alt="" />
+        <img className=" w-80" src="https://i.ibb.co/bbnWwmV/8262066.jpg" alt="" />
           <h1 className=" text-xl">
             ১)  সময়ের প্রতি খেয়াল রেখে রোজ একটি করে পরিক্ষা হবে। <br />
             ২) পরিক্ষাগুলো চলবে একমাস ।  <br />
@@ -18,7 +18,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" mx-auto w-80" src="https://i.ibb.co/r552297/7605882.jpg" alt="" />
+        <img className=" w-80" src="https://i.ibb.co/r552297/7605882.jpg" alt="" />
           <h1 className=" text-xl">
  ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
@@ -29,7 +29,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5   ">
-        <img className=" mx-auto w-80" src="https://i.ibb.co/f1KbDqk/5366119.jpg" alt="" />
+        <img className=" w-80" src="https://i.ibb.co/f1KbDqk/5366119.jpg" alt="" />
           <h1 className=" text-xl">
  ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
@@ -40,7 +40,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" mx-auto w-80" src="https://i.ibb.co/HHbbn5L/7559125.jpg" alt="" />
+        <img className=" w-80" src="https://i.ibb.co/HHbbn5L/7559125.jpg" alt="" />
           <h1 className=" text-xl">
  ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
@@ -51,7 +51,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5   ">
-        <img className=" mx-auto w-80" src="https://i.ibb.co/wc39h3H/3497819.jpg" alt="" />
+        <img className=" w-80" src="https://i.ibb.co/wc39h3H/3497819.jpg" alt="" />
           <h1 className=" text-xl">
  ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
