@@ -1,13 +1,29 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { Authcontext } from "../Provider/AuthProvider";
 
 const Header = () => {
+  const {user , logOut} = useContext(Authcontext)
+
+  const handleLogout = () => {
+     logOut()
+     .then( res => {
+       console.log(res.user);
+       alert('YOUr Logout successful')
+     })
+     .catch( err => {
+       console.error(err);
+     })
+  }
 
   const  navLinks = <>
        <li><NavLink to='/'>হোম </NavLink></li>
        <li><NavLink to='/profile'>প্রোফাইল  </NavLink></li>
        <li><NavLink to='/exam'>পরিক্ষা সমূহ </NavLink></li>
        <li><NavLink to='contract'>যোগাযোগ  </NavLink></li>
-       <li><NavLink to='login'>লগইন</NavLink></li>
+     { user ?<li><NavLink onClick={handleLogout} to='login'>লগআউট </NavLink></li>: 
+        <li><NavLink to='login'>লগইন</NavLink></li>
+     }
     </>
 
   return (
@@ -27,6 +43,15 @@ const Header = () => {
       </ul>
     </div>
     <div className="navbar-end ">
+    
+     {
+       user &&  <div className="  avatar online lg:mr-10">
+       <div className=" w-9 md:w-14 rounded-full">
+         <img src={user?.photoURL} />
+       </div>
+     </div>
+     }
+
     <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
           <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -37,6 +62,7 @@ const Header = () => {
         </ul>
       </div>
       {/* <NavLink to='/login' className="btn btn-sm bg-black text-white">লগইন</NavLink> */}
+
     </div>
   </div>
   );

@@ -1,6 +1,38 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { Authcontext } from "../Provider/AuthProvider";
+import { updateProfile } from "firebase/auth";
 
 const Register = () => {
+  const {createUserLogin } = useContext(Authcontext)
+
+  const  handaleCreateUser = (e) => {
+    e.preventDefault()
+    const form = e.target;
+    const name = form.name.value;
+    const image = form.image.value;
+    const email = form.email.value;
+    const password = form.password.value;
+    console.log(name , image, email , password);
+
+    createUserLogin( email , password) 
+    .then( res => {
+       updateProfile ( res.user , {
+         displayName: name,
+         photoURL: image
+       })
+       if(res.user){
+        alert("User Create Successful")
+         form.reset()
+       }
+    })
+ .catch( err => {
+   console.error(err);
+ })
+
+
+  }
+
   return (
     <div className=" pt-16">
           <section className="md:flex  h-screen justify-center items-center p-3 ">
@@ -10,7 +42,7 @@ const Register = () => {
 
                  <div>
                      <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
-                     <form className=" space-y-2 md:w-96">
+                     <form onSubmit={handaleCreateUser} className=" space-y-2 md:w-96">
 
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
                          type="text" name="name" id="" placeholder="নামঃ" required /> <br />
