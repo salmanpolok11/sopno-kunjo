@@ -21,8 +21,9 @@ const Bio = () => {
            <h1 className=" text-white flex items-center justify-center gap-2 text-2xl  ">
               <MdEmail/> <h1> salmanpolok224@gmail.com</h1>
            </h1>
-           <h1 className=" text-white flex items-center justify-center gap-2 text-2xl  ">
-              <FaFacebookSquare/> <a className=" hover:text-red-400" href="https://www.facebook.com/salmanpolok112">Salman Islam Polok</a>
+           <h1 className=" text-white text-2xl  ">
+              <a className="flex items-center  justify-center gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
+                 <FaFacebookSquare/> Salman Islam Polok</a>
            </h1>
 
         </div>

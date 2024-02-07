@@ -1,22 +1,40 @@
+import { MdEmail } from "react-icons/md";
+import { FaFacebookSquare } from "react-icons/fa";
 
-// const Footer = () => {
-//   return (
-//     <div>
-//    <footer className="footer p-10  bg-white text-black border">
-//   <aside>
-//     <img className=" w-32  ml-10"  src="https://i.ibb.co/DfV1YgM/3-a.png" alt="" />
-//     <h1 className=" font-semibold text-xl text-center">
-//           “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}
-//             <span className=" text-blue-700">শ্রেষ্ঠত্বের। </span>{" "}
-//           </h1>
-//   </aside> 
-//   <section>
-    
-//   </section>
-       
-// </footer>
-//     </div>
-//   );
-// };
+const Footer = () => {
+  return (
+    <div>
+   <footer className=" mt-20 p-5 mx-auto md:flex justify-center md:space-x-72 bg-blue-700 text-black border">
+   <section className=" mt-6 ">
+      <img className=" w-32 mx-auto  md:ml-10"  src="https://i.ibb.co/0FqcghF/588-removebg-preview.png" alt="" />
+    <h1 className=" text-center font-semibold text-xl ">
+          “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}
+            <span className=" text-white">শ্রেষ্ঠত্বের। </span>{" "}
+          </h1>
+        </section> 
 
-// export default Footer;
+  <section>
+         <img className=" w-96" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
+  </section>
+
+<section className=" text-white text-center">
+    <h1 className="  text-2xl">সোশাল মিডিয়া <hr /></h1>
+    <div className=" mt-4">
+    <h1 className=" text-white flex items-center gap-2  text-xl md:text-2xl  ">
+              <MdEmail/> <h1> salmanpolok224@gmail.com</h1>
+           </h1>
+           <h1 className=" text-white text-2xl  ">
+              <a className="flex items-center  gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
+                 <FaFacebookSquare/> Salman Islam Polok</a>
+           </h1>
+    </div>
+
+</section>
+ 
+
+</footer>
+    </div>
+  );
+};
+
+export default Footer;
