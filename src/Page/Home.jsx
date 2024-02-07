@@ -1,4 +1,5 @@
 import Bannar from "../Components/Bannar";
+import Bio from "../Components/Bio";
 import Card from "../Components/Card";
 import Quote from "../Components/Quote";
 import Exams from "./Exams";
@@ -21,6 +22,9 @@ const Home = () => {
 
         {/* card section */}
         <Card/>
+
+        {/* Bio section */}
+        <Bio/>
 
        
     </div>

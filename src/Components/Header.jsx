@@ -6,7 +6,7 @@ const Header = () => {
        <li><NavLink to='/'>হোম </NavLink></li>
        <li><NavLink to='/profile'>প্রোফাইল  </NavLink></li>
        <li><NavLink to='/exam'>পরিক্ষা সমূহ </NavLink></li>
-       <li><NavLink to='contract'>কন্টাক্ট </NavLink></li>
+       <li><NavLink to='contract'>যোগাযোগ  </NavLink></li>
        <li><NavLink to='login'>লগইন</NavLink></li>
     </>
 
