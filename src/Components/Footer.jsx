@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-   <footer className=" mt-20 p-5 mx-auto md:flex justify-center lg:space-x-72 bg-blue-700 text-black border">
+   <footer className=" lg:space-x-20 mt-20 p-5 mx-auto md:flex justify-center  bg-blue-700 text-black border">
    <section className=" mt-6 ">
       <img className=" w-32 mx-auto  md:ml-10"  src="https://i.ibb.co/0FqcghF/588-removebg-preview.png" alt="" />
     <h1 className=" text-center font-semibold text-xl ">
@@ -14,7 +14,7 @@ const Footer = () => {
         </section> 
 
   <section>
-         <img className=" w-96 mx-auto" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
+         <img className=" w-96   mx-auto" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
   </section>
 
 <section className=" text-white mt-7">
