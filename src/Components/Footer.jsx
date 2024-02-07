@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-   <footer className=" mt-20 p-5 mx-auto md:flex justify-center md:space-x-72 bg-blue-700 text-black border">
+   <footer className=" mt-20 p-5 mx-auto md:flex justify-center lg:space-x-72 bg-blue-700 text-black border">
    <section className=" mt-6 ">
       <img className=" w-32 mx-auto  md:ml-10"  src="https://i.ibb.co/0FqcghF/588-removebg-preview.png" alt="" />
     <h1 className=" text-center font-semibold text-xl ">
@@ -14,17 +14,17 @@ const Footer = () => {
         </section> 
 
   <section>
-         <img className=" w-96" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
+         <img className=" w-96 mx-auto" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
   </section>
 
-<section className=" text-white text-center">
-    <h1 className="  text-2xl">সোশাল মিডিয়া <hr /></h1>
-    <div className=" mt-4">
-    <h1 className=" text-white flex items-center gap-2  text-xl md:text-2xl  ">
+<section className=" text-white mt-7">
+    <h1 className=" text-center text-2xl">সোশাল মিডিয়া <hr /></h1>
+    <div className=" mt-4  text-center">
+    <h1 className=" text-white flex items-center justify-center gap-2  text-xl md:text-2xl  ">
               <MdEmail/> <h1> salmanpolok224@gmail.com</h1>
            </h1>
            <h1 className=" text-white text-2xl  ">
-              <a className="flex items-center  gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
+              <a className="flex items-center justify-center  gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
                  <FaFacebookSquare/> Salman Islam Polok</a>
            </h1>
     </div>

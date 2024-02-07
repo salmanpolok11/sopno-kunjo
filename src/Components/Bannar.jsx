@@ -1,7 +1,7 @@
 const Bannar = () => {
   return (
     <div>
-      <section className=" md:flex justify-center items-center space-x-10 mt-32">
+      <section className=" md:flex justify-center items-center space-x-10 mt-20 md:mt-32">
         <div>
           <h1 className=" font-semibold text-4xl text-center">
           “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}

@@ -18,7 +18,7 @@ const Home = () => {
       </section>
 
       {/* Qoute section */}
-      <section className=" mt-[270px] md:mt-5">
+      <section className="">
         <Quote />
       </section>
 

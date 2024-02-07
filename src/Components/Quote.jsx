@@ -1,6 +1,6 @@
 const Quote = () => {
   return (
-    <div className=" w-full md:h-80  bg-blue-700">
+    <div className=" mt-10 md:mt-20 w-full md:h-80  bg-blue-700">
       <section className="md:flex justify-center flex-col md:flex-row-reverse">
       <div>
           <img
