@@ -3,7 +3,7 @@ const Bannar = () => {
     <div>
       <section className=" md:flex justify-center items-center space-x-10 mt-20 md:mt-32">
         <div>
-          <h1 className=" font-semibold text-4xl text-center">
+          <h1 className=" font-semibold text-2xl md:text-4xl text-center">
           “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}
             <span className=" text-blue-700">শ্রেষ্ঠত্বের। </span>{" "}
           </h1>

@@ -13,9 +13,9 @@ const Bio = () => {
           />
         </div>
         <div>
-          <h1 className=" md:pt-20 text-white text-2xl  text-center   ">
-          <span className=" text-3xl font-bold pb-2"> সালমান ইসলাম পলক </span> <br />
-স্বপ্নকুঞ্জের প্রতিষ্ঠাতা ।  লেখালেখিতে যার কেটেছে এক দশক <br />   তিনি একজন অখ্যাত লেখক। তার একাধিক লেখার মধ্যে <br /> জনপ্রিয় লেখা গল্পের নাম, "অনুতপ্ত" "মায়ের আঁচল" ।  
+          <h1 className=" mt-3 md:pt-20 text-white md:text-2xl  text-center   ">
+          <span className=" text-2xl md:text-3xl font-bold pb-2"> সালমান ইসলাম পলক </span> <br />
+স্বপ্নকুঞ্জের প্রতিষ্ঠাতা ।  লেখালেখিতে যার কেটেছে এক দশক   তিনি একজন অখ্যাত লেখক। তার একাধিক লেখার মধ্যে  জনপ্রিয় লেখা গল্পের নাম, "অনুতপ্ত" "মায়ের আঁচল" ।  
           </h1>
            
           <h1 className=" text-white text-2xl  ">

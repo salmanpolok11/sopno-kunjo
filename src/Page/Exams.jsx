@@ -2,7 +2,7 @@ const Exams = () => {
   return (
     <div >
       <section className="md:pt-32 p-3 pt-10">
-        <h1 className=" text-center text-4xl font-bold"  >
+        <h1 className=" text-center text-2xl md:text-4xl font-bold"  >
           সকল <span className=" text-blue-700">পরিক্ষা </span> সমূহ
         </h1>
  
@@ -13,7 +13,7 @@ const Exams = () => {
             src="https://i.ibb.co/275BF7C/8861545.jpg"
             alt=""
           />
-          <h1 className=" font-medium ">
+          <h1 className=" md:font-medium ">
             পরিক্ষার প্রস্তুতি হোক সারা মাস জুড়ে। এইচএসসি মানবিক বিভাগের পাঁচটি
             বিষয়ে সারা মাস পরিক্ষা দেয়ার সুবর্ন সুযোগ। সল্পমূল্যে যাচাই করে নাও
             নিজেকে..
@@ -23,7 +23,7 @@ const Exams = () => {
         </div>
         <div className=" lg:w-80 p-3 md:space-y-2 border-2  rounded-md ">
           <img src="https://i.ibb.co/nPMyDxx/8861625.jpg" alt="" />
-          <h1  className=" mt-2 font-medium ">
+          <h1  className=" mt-2 md:font-medium ">
             পরিক্ষার প্রস্তুতি হোক সারা মাস জুড়ে। এসএসসি মানবিক বিভাগের
             সাতটি বিষয়ে সারা মাস পরিক্ষা দেয়ার সুবর্ন সুযোগ। সল্পমূল্যে যাচাই
             করে নাও নিজেকে..

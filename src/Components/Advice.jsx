@@ -2,7 +2,7 @@ const Advice = () => {
   return (
     <div>
       <section className="  mt-10 md:mt-16 p-2">
-        <h1 className=" text-center text-4xl font-bold">
+        <h1 className=" text-center text-2xl md:text-4xl font-bold">
           আমাদের <span className=" text-blue-700"> সেবা </span> সমূহ
         </h1>
 
