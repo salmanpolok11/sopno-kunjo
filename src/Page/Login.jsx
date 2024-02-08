@@ -43,7 +43,7 @@ const Login = () => {
 
   return (
     <div className=" pt-20">
-           <section className="md:flex  lg:h-screen justify-center items-center p-3 ">
+           <section className="md:flex  justify-center items-center p-3 ">
                  <div>
                       <img className=" md:w-[600px]  " 
                       src="https://i.ibb.co/dQzXH0Y/9959527-1.jpg" alt="" />

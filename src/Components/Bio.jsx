@@ -4,7 +4,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Bio = () => {
   return (
     <div className=" w-full md:h-96  bg-blue-700 p-2 mt-16">
-      <section className="md:flex justify-center gap-16 ">
+      <section className="md:flex justify-center lg:gap-16 ">
       <div>
           <img
             className=" w-[295px] mx-auto"
@@ -12,7 +12,7 @@ const Bio = () => {
             alt=""
           />
         </div>
-        <div>
+        <div className=" w-[500px] ">
           <h1 className=" mt-3 md:pt-20 text-white md:text-2xl  text-center   ">
           <span className=" text-2xl md:text-3xl font-bold pb-2"> সালমান ইসলাম পলক </span> <br />
 স্বপ্নকুঞ্জের প্রতিষ্ঠাতা ।  লেখালেখিতে যার কেটেছে এক দশক   তিনি একজন অখ্যাত লেখক। তার একাধিক লেখার মধ্যে  জনপ্রিয় লেখা গল্পের নাম, "অনুতপ্ত" "মায়ের আঁচল" ।  

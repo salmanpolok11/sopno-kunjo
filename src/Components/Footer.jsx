@@ -11,7 +11,7 @@ const Footer = () => {
           “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}
             <span className=" text-white">শ্রেষ্ঠত্বের। </span>{" "}
           </h1>
-        </section> 
+        </section> J
 
   <section>
          <img className=" w-96   mx-auto" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
