@@ -5,7 +5,7 @@ const Advice = () => {
         <h1 className=" text-center text-2xl md:text-4xl font-bold">
           আমাদের <span className=" text-blue-700"> সেবা </span> সমূহ
         </h1>
-
+       
         <div className=" md:flex justify-center items-center gap-10 md:mt-10  mt-5">
         <img className=" w-80" src="https://i.ibb.co/bbnWwmV/8262066.jpg" alt="" />
           <h1 className=" text-xl">
