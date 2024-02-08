@@ -9,7 +9,7 @@ const Header = () => {
      logOut()
      .then( res => {
        console.log(res.user);
-       alert('YOUr Logout successful')
+       alert('আপনার লগআউট সফলভাবে হয়েছে। ')
      })
      .catch( err => {
        console.error(err);

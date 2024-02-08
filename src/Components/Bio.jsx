@@ -18,8 +18,9 @@ const Bio = () => {
 স্বপ্নকুঞ্জের প্রতিষ্ঠাতা ।  লেখালেখিতে যার কেটেছে এক দশক <br />   তিনি একজন অখ্যাত লেখক। তার একাধিক লেখার মধ্যে <br /> জনপ্রিয় লেখা গল্পের নাম, "অনুতপ্ত" "মায়ের আঁচল" ।  
           </h1>
            
-           <h1 className=" text-white flex items-center justify-center gap-2 text-2xl  ">
-              <MdEmail/> <h1> salmanpolok224@gmail.com</h1>
+          <h1 className=" text-white text-2xl  ">
+              <a className="flex items-center justify-center  gap-2  hover:text-red-400" href="https://mail.google.com/mail/u/0/#inbox?compose=new ">
+              <MdEmail/>  salmanpolok224@gmail.com</a>
            </h1>
            <h1 className=" text-white text-2xl  ">
               <a className="flex items-center  justify-center gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">

@@ -20,9 +20,16 @@ const Footer = () => {
 <section className=" text-white mt-7">
     <h1 className=" text-center text-2xl">সোশাল মিডিয়া <hr /></h1>
     <div className=" mt-4  text-center">
+    {/* */}
     <h1 className=" text-white flex items-center justify-center gap-2  text-xl md:text-2xl  ">
-              <MdEmail/> <h1> salmanpolok224@gmail.com</h1>
+           <h1></h1>
            </h1>
+
+           <h1 className=" text-white text-2xl  ">
+              <a className="flex items-center justify-center  gap-2  hover:text-red-400" href="https://mail.google.com/mail/u/0/#inbox?compose=new ">
+              <MdEmail/>  salmanpolok224@gmail.com</a>
+           </h1>
+
            <h1 className=" text-white text-2xl  ">
               <a className="flex items-center justify-center  gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
                  <FaFacebookSquare/> Salman Islam Polok</a>

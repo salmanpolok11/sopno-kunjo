@@ -16,7 +16,7 @@ const Login = () => {
    userLogin( email , password)
    .then( res => {
      console.log( res.user);
-     alert("Your Login Successful")
+     alert("আপনার লগইন সফলভাবে হয়েছে। ")
      form.reset()
    })
    .catch( err => {
@@ -32,6 +32,9 @@ const Login = () => {
        googleLogin()
        .then( res => {
          console.log(res.user);
+         if(res.user){
+           alert('আপনার লগইন সফলভাবে হয়েছে। ')
+         }
        })
        .catch( err => {
          console.error(err.user);
@@ -39,8 +42,8 @@ const Login = () => {
   }
 
   return (
-    <div className=" pt-16">
-           <section className="md:flex  h-screen justify-center items-center p-3 ">
+    <div className=" pt-20">
+           <section className="md:flex  lg:h-screen justify-center items-center p-3 ">
                  <div>
                       <img className=" md:w-[600px]  " 
                       src="https://i.ibb.co/dQzXH0Y/9959527-1.jpg" alt="" />

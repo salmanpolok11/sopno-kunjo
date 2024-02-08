@@ -1,7 +1,10 @@
 const Card = () => {
   return (
-    <div className=" p-3 text-center mt-10 md:mt-20">
-      <section>
+    <div className=" p-3 text-center mt-10 md:mt-20 ">
+        <h1 className=" text-center text-4xl font-bold">
+        চিরন্তন  <span className=" text-blue-700"> বাণী  </span> সমূহ 
+        </h1>
+      <section className=" md:mt-10">
         <div className=" md:flex items-center justify-center">
           <img
             src="https://i.ibb.co/xMPzmp4/10026547-removebg-preview.png"

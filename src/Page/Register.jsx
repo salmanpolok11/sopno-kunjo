@@ -22,7 +22,7 @@ const Register = () => {
          photoURL: image
        })
        if(res.user){
-        alert("User Create Successful")
+        alert("আপনার একাউন্ট সফলভাবে তৈরি হয়েছে ।   ধন্যবাদ । ")
          form.reset()
        }
     })
@@ -34,8 +34,8 @@ const Register = () => {
   }
 
   return (
-    <div className=" pt-16">
-          <section className="md:flex  h-screen justify-center items-center p-3 ">
+    <div className=" pt-20">
+          <section className="md:flex  justify-center items-center p-3 ">
                  <div>
                       <img className=" md:w-[600px]  " src="https://i.ibb.co/H4KxDGY/6300959.jpg" alt="" />
                  </div>
