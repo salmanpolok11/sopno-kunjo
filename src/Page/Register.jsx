@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Authcontext } from "../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
-import auth from "../Firebase/Firebase";
+import swal from "sweetalert";
 
 const Register = () => {
   const {createUserLogin } = useContext(Authcontext)
@@ -25,7 +25,7 @@ const Register = () => {
          photoURL: image,
        })
        if(res.user){
-        alert("আপনার একাউন্ট সফলভাবে তৈরি হয়েছে ।   ধন্যবাদ । ")
+        swal("ধন্যবাদ ।!", "আপনার একাউন্ট সফলভাবে তৈরি হয়েছে!", "success");
          form.reset()
        }
     })
@@ -44,7 +44,7 @@ const Register = () => {
                  </div>
 
                  <div>
-                     <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
+                     <h1 className=" text-center text-2xl font-semibold mb-3" data-aos="flip-down"> সঠিক তথ্য দিন </h1>
                      <form onSubmit={handaleCreateUser} className=" space-y-2 md:w-96">
 
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  

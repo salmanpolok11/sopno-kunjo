@@ -2,12 +2,18 @@ const Advice = () => {
   return (
     <div>
       <section className="  mt-10 md:mt-16 md:p-10">
-        <h1 className=" text-center text-2xl md:text-4xl font-bold">
+        <h1 className=" text-center text-2xl md:text-4xl font-bold"
+           data-aos="flip-down"
+        >
           আমাদের <span className=" text-blue-700"> সেবা </span> সমূহ
         </h1>
        
         <div className=" md:flex justify-center items-center gap-10 md:mt-16  mt-5">
-        <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" />
+        <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+        />
           <h1 className=" text-xl mt-6 p-3">
           ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
@@ -20,7 +26,11 @@ const Advice = () => {
     
 
         <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" w-[510px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt="" />
+        <img className=" w-[510px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt=""
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        />
           <h1 className=" text-xl p-3">
  ৬) সময়ের প্রতি খেয়াল রেখে রোজ একটি করে পরিক্ষা হবে।  <br />
 ৭) পরিক্ষাগুলো চলবে একমাস ।  <br />
@@ -31,7 +41,11 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-20 mt-10   ">
-        <img className="w-[420px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" />
+        <img className="w-[420px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        />
           <h1 className=" text-xl mt-8 p-3">
 ১১) প্রশ্ন থাকবে প্রতিটি বিষয়ে ৩০/২৫ টা ।  <br />
 ১২) প্রত্যেক পরিক্ষা দেয়ার জন্য সময় থাকবে এক ঘন্টা ।  <br />
@@ -43,7 +57,11 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-10  flex-col md:flex-row-reverse ">
-        <img className=" w-[400px] " src="https://i.ibb.co/09H0X3p/dyw4-DPhye3-1.gif" alt="" />
+        <img className=" w-[400px] " src="https://i.ibb.co/09H0X3p/dyw4-DPhye3-1.gif" alt=""  
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        />
           <h1 className=" text-xl mt-6 p-3">
  ১৬) এই পরিক্ষাগুলো দিলে আত্মবিশ্বাস বাড়বে ৷   <br />
 ১৭) যেহেতু কম সময়ে পরিক্ষা নেয়া হবে তাই দক্ষতা দ্বিগুণ হবে ।   <br />
@@ -54,7 +72,11 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-16 mt-5   ">
-        <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" />
+        <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        />
           <h1 className=" text-xl p-3">
 
 ২১) কাঙ্ক্ষিত সাফল্য অর্জনে সহয়তা করবে।   <br />

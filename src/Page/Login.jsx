@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Authcontext } from "../Provider/AuthProvider";
+import swal from "sweetalert";
 
 const Login = () => {
  const { googleLogin , userLogin } = useContext(Authcontext)
@@ -16,7 +17,8 @@ const Login = () => {
    userLogin( email , password)
    .then( res => {
      console.log( res.user);
-     alert("আপনার লগইন সফলভাবে হয়েছে। ")
+     swal("ধন্যবাদ ।!", "আপনার লগইন সফলভাবে হয়েছে।!", "success");
+
      form.reset()
    })
    .catch( err => {
@@ -33,7 +35,7 @@ const Login = () => {
        .then( res => {
          console.log(res.user);
          if(res.user){
-           alert('আপনার লগইন সফলভাবে হয়েছে। ')
+          swal("ধন্যবাদ ।!", "আপনার লগইন সফলভাবে হয়েছে।!", "success");
          }
        })
        .catch( err => {
@@ -50,7 +52,7 @@ const Login = () => {
                  </div>
 
                  <div className=" mt-8">
-                     <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
+                     <h1 className=" text-center text-2xl font-semibold mb-3" data-aos="flip-down"> সঠিক তথ্য দিন </h1>
                      <form onSubmit={handaleUserLogin} className=" space-y-2 md:w-96">
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
                          type="email" name="email" id="" placeholder="ইমেইলঃ" /> <br />
