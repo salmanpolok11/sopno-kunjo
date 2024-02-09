@@ -7,7 +7,7 @@ const Advice = () => {
         </h1>
        
         <div className=" md:flex justify-center items-center gap-10 md:mt-10  mt-5">
-        <img className=" w-80" src="https://i.ibb.co/bbnWwmV/8262066.jpg" alt="" />
+        <img className=" w-[400px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt="" />
           <h1 className=" text-xl">
           ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
@@ -18,7 +18,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" w-80" src="https://i.ibb.co/r552297/7605882.jpg" alt="" />
+        <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" />
           <h1 className=" text-xl">
  ৬) সময়ের প্রতি খেয়াল রেখে রোজ একটি করে পরিক্ষা হবে।  <br />
 ৭) পরিক্ষাগুলো চলবে একমাস ।  <br />
@@ -29,7 +29,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5   ">
-        <img className=" w-80" src="https://i.ibb.co/f1KbDqk/5366119.jpg" alt="" />
+        <img className="w-[390px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" />
           <h1 className=" text-xl">
 ১১) প্রশ্ন থাকবে প্রতিটি বিষয়ে ৩০/২৫ টা ।  <br />
 ১২) প্রত্যেক পরিক্ষা দেয়ার জন্য সময় থাকবে এক ঘন্টা ।  <br />
@@ -52,7 +52,7 @@ const Advice = () => {
         </div>
 
         <div className=" md:flex justify-center items-center gap-10 mt-5   ">
-        <img className=" w-80" src="https://i.ibb.co/wc39h3H/3497819.jpg" alt="" />
+        <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" />
           <h1 className=" text-xl">
 
 ২১) কাঙ্ক্ষিত সাফল্য অর্জনে সহয়তা করবে।   <br />
