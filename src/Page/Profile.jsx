@@ -24,7 +24,7 @@ const Profile = () => {
           data-aos-duration="900"
         >
           {user && (
-            <div className=" mx-auto md:w-40 text-center">
+            <div className=" mx-auto  text-center">
               <img
                 className=" w-32 mx-auto h-32  md:h-[150px] md:w-[150px] rounded-full"
                 src={
@@ -35,8 +35,10 @@ const Profile = () => {
                 alt=""
               />
 
-              <h1> {user.displayName} </h1>
-              <h1 className=" text-center"> {user.email} </h1>
+              <h1 className=" text-xl font-semibold"> {user.displayName} </h1>
+              <h1 className=" "> {user.phoneNumber} </h1>
+              <h1 className=" "> <span className=" font-semibold"> ID:</span> {user.metadata.createdAt} </h1>
+              <h1 className=" "> {user.email} </h1>
             </div>
           )}
         </div>

@@ -2,6 +2,7 @@ import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Authcontext } from "../Provider/AuthProvider";
 import { updateProfile } from "firebase/auth";
+import auth from "../Firebase/Firebase";
 
 const Register = () => {
   const {createUserLogin } = useContext(Authcontext)
@@ -11,15 +12,17 @@ const Register = () => {
     const form = e.target;
     const name = form.name.value;
     const image = form.image.value;
+    const number = form.num.value;
     const email = form.email.value;
     const password = form.password.value;
-    console.log(name , image, email , password);
+    console.log(name , image, number, email , password);
 
-    createUserLogin( email , password) 
+    createUserLogin( email , password ) 
     .then( res => {
        updateProfile ( res.user , {
+        phoneNumber : number,
          displayName: name,
-         photoURL: image
+         photoURL: image,
        })
        if(res.user){
         alert("আপনার একাউন্ট সফলভাবে তৈরি হয়েছে ।   ধন্যবাদ । ")
@@ -49,6 +52,9 @@ const Register = () => {
 
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
                          type="url" name="image" id="" placeholder="ছবির ইউআরএলঃ" /> <br />
+
+                        <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
+                         type="number" name="num" id="" placeholder="ফোন নাম্বারঃ" /> <br />
 
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
                          type="email" name="email" id="" placeholder="ইমেইলঃ" required /> <br />
