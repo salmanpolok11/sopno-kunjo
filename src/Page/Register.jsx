@@ -37,7 +37,7 @@ const Register = () => {
   }
 
   return (
-    <div className="">
+    <div className="pt-16 p-1 md:p-3">
           <section className="md:flex  justify-center items-center gap-12 p-3 ">
                  <div>
                       <img className=" md:w-[700px]  " src="https://i.ibb.co/LY54xtn/IGkyaw4l-BV.gif" alt="" />

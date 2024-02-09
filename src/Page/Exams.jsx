@@ -1,7 +1,7 @@
 const Exams = () => {
   return (
     <div >
-      <section className="md:pt-32 p-3 pt-10">
+      <section className="md:pt-32 md:p-3 pt-10">
         <h1 className=" text-center text-2xl md:text-4xl font-bold"  >
           সকল <span className=" text-blue-700">পরিক্ষা </span> সমূহ
         </h1>

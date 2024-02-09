@@ -42,7 +42,7 @@ const Login = () => {
   }
 
   return (
-    <div className=" pt-16 md:pt-32">
+    <div className=" pt-16 md:pt-32 p-1 md:p-3">
            <section className="md:flex  justify-center items-center gap-10 p-3 ">
                  <div>
                       <img className=" md:w-[600px]  " 
