@@ -18,7 +18,7 @@ const Exams = () => {
             বিষয়ে সারা মাস পরিক্ষা দেয়ার সুবর্ন সুযোগ। সল্পমূল্যে যাচাই করে নাও
             নিজেকে..
           </h1>
-          <button className=" btn btn-outline btn-sm mx-auto w-full">প্রস্তুতি ফ্রি = ৫০০৳ </button>
+          <button className=" btn btn-outline btn-sm mx-auto w-full">প্রস্তুতি ফ্রি = ৩০০৳ </button>
 
         </div>
         <div className=" lg:w-80 p-3 md:space-y-2 border-2  rounded-md ">
@@ -28,7 +28,7 @@ const Exams = () => {
             সাতটি বিষয়ে সারা মাস পরিক্ষা দেয়ার সুবর্ন সুযোগ। সল্পমূল্যে যাচাই
             করে নাও নিজেকে..
           </h1>
-           <button className=" btn btn-outline btn-sm mx-auto w-full">প্রস্তুতি ফ্রি = ৪০০৳ </button>
+           <button className=" btn btn-outline btn-sm mx-auto w-full">প্রস্তুতি ফ্রি = ২০০৳ </button>
         </div>
  </div>
 
