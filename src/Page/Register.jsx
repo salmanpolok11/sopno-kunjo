@@ -37,10 +37,10 @@ const Register = () => {
   }
 
   return (
-    <div className=" pt-20">
-          <section className="md:flex  justify-center items-center p-3 ">
+    <div className="">
+          <section className="md:flex  justify-center items-center gap-12 p-3 ">
                  <div>
-                      <img className=" md:w-[600px]  " src="https://i.ibb.co/H4KxDGY/6300959.jpg" alt="" />
+                      <img className=" md:w-[700px]  " src="https://i.ibb.co/LY54xtn/IGkyaw4l-BV.gif" alt="" />
                  </div>
 
                  <div>

@@ -6,9 +6,9 @@ const Advice = () => {
           আমাদের <span className=" text-blue-700"> সেবা </span> সমূহ
         </h1>
        
-        <div className=" md:flex justify-center items-center gap-10 md:mt-10  mt-5">
-        <img className=" w-[400px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt="" />
-          <h1 className=" text-xl">
+        <div className=" md:flex justify-center items-center gap-10 md:mt-16  mt-5">
+        <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" />
+          <h1 className=" text-xl mt-6">
           ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
 ২) প্রতিদিন বোর্ড প্রশ্নের নমুনা প্রশ্ন ও তার উত্তর ।   <br />
 ৩) টপ রেজাল্ট কারীরা পাবে বিশেষ উপহার ।   <br />
@@ -17,8 +17,10 @@ const Advice = () => {
           </h1>
         </div>
 
+    
+
         <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" />
+        <img className=" w-[510px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt="" />
           <h1 className=" text-xl">
  ৬) সময়ের প্রতি খেয়াল রেখে রোজ একটি করে পরিক্ষা হবে।  <br />
 ৭) পরিক্ষাগুলো চলবে একমাস ।  <br />
@@ -28,9 +30,9 @@ const Advice = () => {
           </h1>
         </div>
 
-        <div className=" md:flex justify-center items-center gap-10 mt-5   ">
-        <img className="w-[390px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" />
-          <h1 className=" text-xl">
+        <div className=" md:flex justify-center items-center gap-20 mt-10   ">
+        <img className="w-[420px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" />
+          <h1 className=" text-xl mt-8">
 ১১) প্রশ্ন থাকবে প্রতিটি বিষয়ে ৩০/২৫ টা ।  <br />
 ১২) প্রত্যেক পরিক্ষা দেয়ার জন্য সময় থাকবে এক ঘন্টা ।  <br />
 ১৩) সব প্রশ্ন থাকবে বিভিন্ন সময়ে বোর্ড পরিক্ষা হওয়া প্রশ্ন ।  <br />
@@ -40,9 +42,9 @@ const Advice = () => {
           </h1>
         </div>
 
-        <div className=" md:flex justify-center items-center gap-10 mt-5  flex-col md:flex-row-reverse ">
-        <img className=" w-80" src="https://i.ibb.co/HHbbn5L/7559125.jpg" alt="" />
-          <h1 className=" text-xl">
+        <div className=" md:flex justify-center items-center gap-10 mt-10  flex-col md:flex-row-reverse ">
+        <img className=" w-[400px] " src="https://i.ibb.co/09H0X3p/dyw4-DPhye3-1.gif" alt="" />
+          <h1 className=" text-xl mt-6">
  ১৬) এই পরিক্ষাগুলো দিলে আত্মবিশ্বাস বাড়বে ৷   <br />
 ১৭) যেহেতু কম সময়ে পরিক্ষা নেয়া হবে তাই দক্ষতা দ্বিগুণ হবে ।   <br />
 ১৮) পরিক্ষা ভিতি কেটে যাবে।   <br />
@@ -51,7 +53,7 @@ const Advice = () => {
           </h1>
         </div>
 
-        <div className=" md:flex justify-center items-center gap-10 mt-5   ">
+        <div className=" md:flex justify-center items-center gap-16 mt-5   ">
         <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" />
           <h1 className=" text-xl">
 

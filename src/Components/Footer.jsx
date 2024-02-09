@@ -4,17 +4,18 @@ import { FaFacebookSquare } from "react-icons/fa";
 const Footer = () => {
   return (
     <div>
-   <footer className=" lg:space-x-20 mt-10 md:mt-20 p-5 mx-auto md:flex justify-center  bg-blue-700 text-black border">
+   <footer className=" lg:space-x-20 mt-10 md:mt-20  mx-auto md:flex justify-center  bg-[#536BF6] text-black border">
    <section className=" mt-6 ">
       <img className=" w-32 mx-auto  md:ml-10"  src="https://i.ibb.co/0FqcghF/588-removebg-preview.png" alt="" />
     <h1 className=" text-center font-semibold text-xl ">
-          “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{" "}
-            <span className=" text-white">শ্রেষ্ঠত্বের। </span>{" "}
+          “স্বপ্ন দেখ বিজয়ের, <br /> সাধনা করো{}
+            <span className=" text-white">শ্রেষ্ঠত্বের। </span>{}
           </h1>
-        </section> J
+        </section> 
 
   <section>
-         <img className=" w-96   mx-auto" src="https://i.ibb.co/x8sNz7Y/2205-w048-n004-118b-p1-118-removebg-preview.png" alt="" />
+         <img className=" w-96   mx-auto" 
+         src="https://i.ibb.co/bgCh034/l-R0-K9l-facebook.gif" alt="" />
   </section>
 
 <section className=" text-white mt-7">

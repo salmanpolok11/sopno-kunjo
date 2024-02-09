@@ -8,10 +8,11 @@ const Bannar = () => {
             <span className=" text-blue-700">শ্রেষ্ঠত্বের। </span>{" "}
           </h1>
         </div>
-
+                 {/* https://i.ibb.co/2Fhk8Rd/original-a43f69b8538e2acd361d5cfd34348b98.gif */}
         <div>
           <img
             src="https://i.ibb.co/cJw9q0Q/3966983-removebg-preview.png"
+            
             alt=""
           />
         </div>

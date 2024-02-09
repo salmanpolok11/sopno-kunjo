@@ -42,14 +42,14 @@ const Login = () => {
   }
 
   return (
-    <div className=" pt-20">
-           <section className="md:flex  justify-center items-center p-3 ">
+    <div className=" pt-16 md:pt-32">
+           <section className="md:flex  justify-center items-center gap-10 p-3 ">
                  <div>
                       <img className=" md:w-[600px]  " 
-                      src="https://i.ibb.co/dQzXH0Y/9959527-1.jpg" alt="" />
+                      src="https://i.ibb.co/Hg55K2d/r8-Huxylbz-H.gif" alt="" />
                  </div>
 
-                 <div >
+                 <div className=" mt-8">
                      <h1 className=" text-center text-2xl font-semibold mb-3"> সঠিক তথ্য দিন </h1>
                      <form onSubmit={handaleUserLogin} className=" space-y-2 md:w-96">
                         <input className="  bg-blue-700 w-full p-3 rounded-lg text-xl text-white "  
