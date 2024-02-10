@@ -1,18 +1,15 @@
 const Exams = () => {
   return (
     <div >
-      <section className="md:pt-32 md:p-3 pt-10">
+      <section className="md:pt-32 md:p-3 pt-20">
         <h1 className=" text-center text-2xl md:text-4xl font-bold" 
-        data-aos="flip-up"
+  
         >
           সকল <span className=" text-blue-700">পরিক্ষা </span> সমূহ
         </h1>
  
  <div className=" md:flex justify-center md:space-x-10 mt-6 ">
  <div className=" lg:w-80 md:space-y-2 border-2 p-4  rounded-md  mb-5  " 
- data-aos="fade-down"
- data-aos-easing="linear"
- data-aos-duration="1000"
  >
           <img
             className="  "
@@ -28,9 +25,6 @@ const Exams = () => {
         </div>
 
         <div className=" lg:w-80 p-3 md:space-y-2 border-2  rounded-md "
-        data-aos="fade-up"
-        data-aos-easing="linear"
-        data-aos-duration="1000"
         >
           <img src="https://i.ibb.co/nPMyDxx/8861625.jpg" alt="" />
           <h1  className=" mt-2 md:font-medium ">

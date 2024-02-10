@@ -10,7 +10,7 @@ const Advice = () => {
        
         <div className=" md:flex justify-center items-center gap-10 md:mt-16  mt-5">
         <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" 
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="500"
         />
@@ -42,7 +42,7 @@ const Advice = () => {
 
         <div className=" md:flex justify-center items-center gap-20 mt-10   ">
         <img className="w-[420px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" 
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="1000"
         />
@@ -73,7 +73,7 @@ const Advice = () => {
 
         <div className=" md:flex justify-center items-center gap-16 mt-5   ">
         <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" 
-        data-aos="fade-down"
+        data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="1000"
         />
