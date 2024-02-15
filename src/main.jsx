@@ -13,6 +13,7 @@ import Contract from './Page/Contract.jsx';
 import Login from './Page/Login.jsx';
 import Register from './Page/Register.jsx';
 import AuthProvider from './Provider/AuthProvider.jsx';
+import About from './Page/About.jsx';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
                 {
                    path: '/contract',
                    element: <Contract/>
+                },
+                {
+                   path: '/about',
+                   element: <About/>
                 },
                 {
                    path: '/login',

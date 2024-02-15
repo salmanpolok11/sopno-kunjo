@@ -32,6 +32,9 @@ const Header = () => {
       <li>
         <NavLink to="contract">যোগাযোগ </NavLink>
       </li>
+      <li>
+        <NavLink to="about">সম্পর্কে</NavLink>
+      </li>
       {user ? (
         <li>
           <NavLink onClick={handleLogout} to="login">
@@ -111,6 +114,7 @@ const Header = () => {
         p-2 shadow bg-base-100 rounded-box w-28 space-y-2 -ml-16 "
           >
             {navLinks}
+            
           </ul>
         </div>
         {/* <NavLink to='/login' className="btn btn-sm bg-black text-white">লগইন</NavLink> */}
