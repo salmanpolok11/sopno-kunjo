@@ -1,5 +1,7 @@
 import { MdEmail } from "react-icons/md";
 import { FaFacebookSquare } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import { MdReadMore } from "react-icons/md";
 
 const Footer = () => {
   return (
@@ -35,6 +37,12 @@ const Footer = () => {
               <a className="flex items-center justify-center  gap-2  hover:text-red-400" href="https://www.facebook.com/salmanpolok112">
                  <FaFacebookSquare/> Salman Islam Polok</a>
            </h1>
+           <NavLink to='/admin'>
+            <h1  className=" text-white text-xl md:text-xl btn-outline btn-ghost w-32 px-3 mx-auto mt-2 rounded-md mb-3">
+              <button className="flex items-center  justify-center gap-2 text-center  hover:text-red-400" >
+              <MdReadMore />আরো   </button>
+           </h1>
+            </NavLink>
     </div>
 
 </section>

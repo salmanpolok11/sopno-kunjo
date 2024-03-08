@@ -12,7 +12,7 @@ const Advice = () => {
         <img className=" w-[500px]" src="https://i.ibb.co/0rNVs37/Alpha-Testers-Animation-60.gif" alt="" 
         data-aos="fade-up"
         data-aos-easing="linear"
-        data-aos-duration="500"
+        data-aos-duration="400"
         />
           <h1 className=" text-xl mt-6 p-3">
           ১) থাকবে সারা মাস জুড়ে পরিক্ষা দেয়ার সুযোগ ।  <br />
@@ -29,7 +29,7 @@ const Advice = () => {
         <img className=" w-[510px]" src="https://i.ibb.co/pbTcDFw/animation-500-kgtd8u9z-a568962a.gif" alt=""
         data-aos="fade-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="400"
         />
           <h1 className=" text-xl p-3">
  ৬) সময়ের প্রতি খেয়াল রেখে রোজ একটি করে পরিক্ষা হবে।  <br />
@@ -44,7 +44,7 @@ const Advice = () => {
         <img className="w-[420px] rounded-md" src="https://i.ibb.co/tpyXQbq/20201201-041345.gif" alt="" 
         data-aos="fade-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="400"
         />
           <h1 className=" text-xl mt-8 p-3">
 ১১) প্রশ্ন থাকবে প্রতিটি বিষয়ে ৩০/২৫ টা ।  <br />
@@ -60,7 +60,7 @@ const Advice = () => {
         <img className=" w-[400px] " src="https://i.ibb.co/09H0X3p/dyw4-DPhye3-1.gif" alt=""  
         data-aos="fade-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="400"
         />
           <h1 className=" text-xl mt-6 p-3">
  ১৬) এই পরিক্ষাগুলো দিলে আত্মবিশ্বাস বাড়বে ৷   <br />
@@ -75,7 +75,7 @@ const Advice = () => {
         <img className=" w-96" src="https://i.ibb.co/fN4spKz/tht4-Qd-Iex-F.gif" alt="" 
         data-aos="fade-up"
         data-aos-easing="linear"
-        data-aos-duration="1000"
+        data-aos-duration="400"
         />
           <h1 className=" text-xl p-3">
 

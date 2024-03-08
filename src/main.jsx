@@ -14,6 +14,7 @@ import Login from './Page/Login.jsx';
 import Register from './Page/Register.jsx';
 import AuthProvider from './Provider/AuthProvider.jsx';
 import About from './Page/About.jsx';
+import AdminSelf from './CEO/AdminSelf.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
                 {
                    path: '/register',
                    element: <Register/>
+                },
+                {
+                   path: '/admin',
+                   element: <AdminSelf/>
                 }
 
     ]
