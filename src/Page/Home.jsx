@@ -4,7 +4,7 @@ import Bio from "../Components/Bio";
 import Card from "../Components/Card";
 import Footer from "../Components/Footer";
 import Quote from "../Components/Quote";
-import Exams from "./Exams";
+import Exams from "../Exam/Exams";
 
 const Home = () => {
   return (

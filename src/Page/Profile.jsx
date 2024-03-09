@@ -17,8 +17,8 @@ const Profile = () => {
         </div>
 
         <div
-          className=" mx-auto absolute ml-16 -mt-28 md:-mt-32 lg:bottom-16 w-60 md:w-72 h-60 md:h-72 
-         border-2 md:ml-40 bg-emerald-400 pt-2 rounded-xl shadow-md"
+          className=" mx-auto  absolute ml-16 -mt-28 md:-mt-40  lg:bottom-32 w-60 md:w-72 h-60 md:h-72 
+         border-2 md:ml-40 bg-emerald-400 pt-2 rounded-xl shadow-md "
           data-aos="fade-up"
           data-aos-easing="linear"
           data-aos-duration="900"

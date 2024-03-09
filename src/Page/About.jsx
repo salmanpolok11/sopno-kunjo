@@ -12,7 +12,7 @@ const About = () => {
             alt=""
           />
         </div>
-        <div>
+        {/* <div>
           <h1 className=" font-semibold text-2xl md:text-4xl text-center lg:w-[550px] "
          
           >
@@ -22,20 +22,75 @@ const About = () => {
           </h1>
 
           
-        </div>
+        </div> */}
       </section>
 
-      {/* <section>
-            <div className=" w-80 lg:w-[520px] mx-auto">
-            <Marquee pauseOnHover={true} speed={70}>
-            <h1 className=" font-semibold  md:text-2xl text-center" >
-        “স্বপ্ন দেখ বিজয়ের, সাধনা করো{" "}
-          <span className=" text-blue-700">শ্রেষ্ঠত্বের। </span>{" "}
-        </h1>
-              </Marquee>
+{/*  FAQ SECTION */}
+      <section className=" md:flex justify-center gap-20 p-3  ">
+      <div className=" space-y-4 mt-3">
+   <div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" defaultChecked /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+      </div>
 
-            </div>
-      </section> */}
+{/* 2nd  FAQ */}
+
+
+      <div className=" space-y-4 mt-3">
+      <div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" defaultChecked /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+      </div>
+
+      </section>
 
     </div>
   );

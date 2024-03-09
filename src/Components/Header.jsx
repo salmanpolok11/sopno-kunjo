@@ -30,10 +30,10 @@ const Header = () => {
         <NavLink to="/exam">পরিক্ষা সমূহ </NavLink>
       </li>
       <li>
-        <NavLink to="contract">যোগাযোগ </NavLink>
+        <NavLink to="/contract">যোগাযোগ </NavLink>
       </li>
       <li>
-        <NavLink to="about">সম্পর্কে</NavLink>
+        <NavLink to="/about">সম্পর্কে</NavLink>
       </li>
       {user ? (
         <li>
@@ -43,7 +43,7 @@ const Header = () => {
         </li>
       ) : (
         <li>
-          <NavLink to="login">লগইন</NavLink>
+          <NavLink to="/login">লগইন</NavLink>
         </li>
       )}
     </>
