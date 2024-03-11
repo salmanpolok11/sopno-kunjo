@@ -70,16 +70,6 @@ const About = () => {
                     <FaFacebookSquare /> Salman Islam Polok
                   </a>
                 </h1>
-                <NavLink to="/admin">
-                  <h1 className=" text-xl md:text-xl btn-outline btn-ghost w-32 px-3 
-                  mx-auto mt-2 rounded-md">
-                    <button className="flex items-center  justify-center gap-2 text-center 
-                     hover:text-red-400">
-                      <MdReadMore />
-                      আরো{" "}
-                    </button>
-                  </h1>
-                </NavLink>
               </div>
             </section>
           </div>
@@ -118,10 +108,66 @@ const About = () => {
                     <MdEmail /> kawsarshihab705@gmail.com
                   </a>
                 </h1>
+                <h1 className="  text-xl md:text-2xl  ">
+                  <a
+                    className="flex items-center gap-2  hover:text-red-400"
+                    href="https://www.facebook.com/shi.hab.1460693"
+                  >
+                    <FaFacebookSquare />  Shihab Islam
+                  </a>
+                </h1>
               </div>
             </section>
           </div>
         </div>
+
+        {/*  3rd man */}
+        <div>
+          <div className=" w-full md:h-96  p-2">
+            <section className="md:flex justify-center  items-center lg:gap-16  ">
+              <div>
+                <img
+                  className=" md:w-[295px] mx-auto"
+                  src="https://i.ibb.co/P5zCSpS/336386427-227642099670372-4316486382258128144-n-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+
+              <div className=" md:w-[500px] ">
+                <h1 className=" mt-3 md:text-xl     ">
+                  <span className=" text-2xl md:text-3xl font-bold pb-2">
+                    {" "}
+                    শাওন পলক রায়  {" "}
+                  </span>{" "}
+                  <br />
+                  ফুলস্টাক ওয়েব ডেভেলপার ।  এবং নর্দান বিশ্ববিদ্যালয়ের সিএসই এর স্টুডেন্ট  ।  স্বপ্নকুঞ্জের       
+                   সহপ্রতিষ্ঠাতা ।  তিনি অসাধারণ প্রতিভার অধিকারী  ।  ওয়েব ডেভেলপমেন্টের পাশাপাশি তিনি   
+                    আরো অনেক কাজ করে থাকেন।  তার প্রতিভা এবং মেধাকে সমৃদ্ধ করতে।  
+                </h1>
+
+                <h1 className="  text-xl md:text-2xl  ">
+                  <a
+                    className="flex items-center   gap-2  hover:text-red-400"
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=new "
+                  >
+                    <MdEmail /> shaonroy11@gmail.com
+                  </a>
+                </h1>
+                <h1 className="  text-xl md:text-2xl  ">
+                  <a
+                    className="flex items-center gap-2  hover:text-red-400"
+                    href="https://www.facebook.com/shaon.ray.14"
+                  >
+                    <FaFacebookSquare /> Shaon Polock Roy 
+                  </a>
+                </h1>
+              </div>
+            </section>
+          </div>
+        </div>
+
+
+
       </section>
     </div>
   );

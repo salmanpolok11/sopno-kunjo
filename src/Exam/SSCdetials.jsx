@@ -3,13 +3,13 @@ import { NavLink } from "react-router-dom";
 
 const SSCdetials = () => {
   return (
-    <div className="pt-24 p-3 bg-[#FFFEFE] ">
+    <div className="pt-24 p-3 md:p-5 bg-[#FFFEFE] ">
     {/* 1s section  */}
      <section className=" md:flex justify-center items-center md:w-[1000px] mx-auto">
      <h1 className=" md:text-xl md:mt-40">প্রিয় শিক্ষার্থী,  <br />
 পাবলিক পরিক্ষা একটা ভিতির নাম।  পূর্নাঙ্গ প্রস্তুতি থাকা সত্ত্বেও অনেকে পরিক্ষা দিতে অভ্যস্থ না হওয়ায় পরিক্ষা কেন্দ্রে ঘাবড়ে যায়।  যার ফলে ভেঙে যায় অনেক স্বপ্ন ।  তাই আমরা একজন পরিক্ষার্থীর যেন পরিক্ষা বিষয় কোন ভিতি না থাকে সে জন্য সারা মাস পরিক্ষা দেয়ার ব্যবস্থা করেছি। </h1>
         <img
-      className=" h-96"
+      className=" md:h-96"
       src="https://i.ibb.co/X5876Tj/image-processing20220207-28394-hvv8r.gif" alt="" />
      </section>
 
