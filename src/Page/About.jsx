@@ -89,7 +89,7 @@ const About = () => {
               </div>
 
               <div className=" md:w-[500px] ">
-                <h1 className=" mt-3 md:text-xl     ">
+                <h1 className=" mt-3 md:text-xl      ">
                   <span className=" text-2xl md:text-3xl font-bold pb-2">
                     {" "}
                     শিহাব ইসলাম{" "}

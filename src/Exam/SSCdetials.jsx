@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const SSCdetials = () => {
   return (
-    <div className="pt-24 p-3 md:p-5 bg-[#FFFEFE] ">
+    <div className="pt-24 p-3 md:px-5 bg-[#FFFEFE] ">
     {/* 1s section  */}
      <section className=" md:flex justify-center items-center md:w-[1000px] mx-auto">
      <h1 className=" md:text-xl md:mt-40">প্রিয় শিক্ষার্থী,  <br />
@@ -25,7 +25,7 @@ const SSCdetials = () => {
 
      </section>
 
-     <div className=" md:w-96 w-32 mx-auto mt-7">
+     <div className=" w-32 md:w-1/8 mx-auto mt-7">
           <NavLink to="/" className=' '>
                 <button className=" btn btn-outline btn-sm bg-blue-700 text-white ">
                  <MdReadMore /> এনরোল{" "}
