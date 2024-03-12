@@ -166,6 +166,52 @@ const About = () => {
           </div>
         </div>
 
+        {/*  4th man */}
+        <div>
+          <div className=" w-full md:h-96  md:mt-10 p-2 mb-10">
+            <section className="md:flex justify-center  items-center lg:gap-4 
+            md:flex-row-reverse  ">
+              <div>
+                <img
+                  className=" md:w-[295px] w-72 mx-auto"
+                  src="https://i.ibb.co/Xtd2rW7/s-removebg-preview.png"
+                  alt=""
+                />
+              </div>
+
+              <div className=" md:w-[500px] ">
+                <h1 className=" mt-3 md:text-xl     ">
+                  <span className=" text-2xl md:text-3xl font-bold pb-2">
+                    {" "}
+                    তামিম ইশতিয়াক সৈকত   {" "}
+                  </span>{" "}
+                  <br />
+                  ভবিষ্যতে ঢাবিয়ান এবং অত্যান্ত পরিশ্রমী, মেধাবী এবং নম্র মানুষ ।  আকাশ ছোঁয়া স্বপ্নের পথে পারি দিচ্ছেন একেকটা দিন।  
+পাশাপাশি কাজ করছেন স্বপ্নকুঞ্জের মার্কেটিং এজেন্সির একজন দায়িত্বরত সদস্য হিসেবে ।   ভবিষ্যতে আলো ছড়ানোর তার এক মাত্র লক্ষ্য । 
+
+                </h1>
+
+                <h1 className="  text-xl md:text-2xl  ">
+                  <a
+                    className="flex items-center   gap-2  hover:text-red-400"
+                    href="https://mail.google.com/mail/u/0/#inbox?compose=new "
+                  >
+                    <MdEmail /> tamimSaikat006@gmail.com
+                  </a>
+                </h1>
+                <h1 className="  text-xl md:text-2xl  ">
+                  <a
+                    className="flex items-center gap-2  hover:text-red-400"
+                    href="https://www.facebook.com/profile.php?id=100091799955366"
+                  >
+                    <FaFacebookSquare /> Tamim Istiak Saikat
+                  </a>
+                </h1>
+              </div>
+            </section>
+          </div>
+        </div>
+
 
 
       </section>
